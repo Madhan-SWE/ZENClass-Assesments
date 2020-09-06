@@ -1,0 +1,53 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.label {
+  display: inline-block;
+  position: relative;
+  width: 400px;
+  width: 300px;
+  padding: 3px;
+  font-size: 20px;
+}
+.icon {
+  border: 1px solid rgb(175, 164, 164);
+  padding: 5px;
+  font-size: 20px;
+  margin-right: -5px;
+  text-align: center;
+}
+input,
+select {
+  display: inline-block;
+  width: 260px;
+  font-size: 20px;
+  padding: 3px;
+}
+.input-container {
+  display: inline-block;
+}
+#error {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+.formFrame {
+  position: relative;
+  display: block;
+  left: 20%;
+  background-color: rgb(238, 237, 237);
+  width: 700px;
+  height: 550px;
+}
+
+.itemFrame {
+  padding: 10px;
+}
+.submit {
+  text-align: center;
+  position: relative;
+}
+input[type="submit"] {
+  width: 120px;
+}

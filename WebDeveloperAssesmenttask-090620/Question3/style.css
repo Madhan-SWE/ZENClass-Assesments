@@ -1,0 +1,57 @@
+body {
+  margin-left: 2%;
+  margin-right: 2%;
+  color: rgb(97, 89, 89);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  background-color: cornsilk;
+}
+.myrow {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+}
+.mycol {
+  position: relative;
+  display: inline-block;
+  padding: 8px;
+}
+.price {
+  display: inline-block;
+}
+.addcart {
+  display: inline-block;
+  position: relative;
+  float: right;
+  right: 30px;
+}
+button {
+  background-color: rgb(80, 182, 55);
+  font-size: 15px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(31, 29, 29);
+  color: white;
+}
+.ptitle {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 8px;
+}
+.desc {
+  padding: 8px;
+}
+.price {
+  font-weight: bold;
+  padding: 8px;
+  padding-top: 10px;
+}
+.borderBox {
+  width: 398px;
+  border-bottom: 1px solid rgb(214, 205, 205);
+  border-right: 1px solid rgb(214, 205, 205);
+  border-left: 1px solid rgb(214, 205, 205);
+  padding-bottom: 5px;
+}

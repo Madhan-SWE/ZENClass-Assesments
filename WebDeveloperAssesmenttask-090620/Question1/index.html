@@ -1,0 +1,147 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <script src="script.js">
+    </script>
+    <div class="formFrame">
+    <form name="contactForm" onsubmit="return validateForm()">
+      <div class="itemFrame">
+        <div class="label"><label for="fullname">Full Name</label></div>
+        <div class="input-container">
+          <i class="fa fa-user icon"></i>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Full name"
+            name="fullname"
+            id="fullname"
+          />
+        </div>
+      </div>
+      <div class="itemFrame">
+        <div class="label"><label for="adress1">Address Line1</label></div>
+        <div class="input-container">
+          <i class="fa fa-address-book icon"></i>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Address Line1"
+            name="address1"
+            id="address1"
+          />
+        </div>
+      </div>
+
+      <div class="itemFrame">
+        <div class="label"><label for="adress2">Address Line2</label></div>
+        <div class="input-container">
+          <i class="fa fa-address-book icon"></i>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Address Line2"
+            name="address2"
+            id="address2"
+          />
+        </div>
+      </div>
+      
+      <div class="itemFrame">
+        <div class="label"><label for=city">City</label></div>
+        <div class="input-container">
+          <i class="fa fa-building icon"></i>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="City"
+            name="city"
+            id="city"
+          />
+        </div>
+      </div>
+
+      <div class="itemFrame">
+        <div class="label"><label for="spr">State/Provision/Region</label></div>
+        <div class="input-container">
+          <i class="fa fa-map-marker icon"></i>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="State/Provision/Region"
+            name="spr"
+            id="spr"
+          />
+        </div>
+      </div>
+
+      <div class="itemFrame">
+        <div class="label"><label for="zip">PostalCode/ZIP</label></div>
+        <div class="input-container">
+          <i class="fa fa-envelope icon"></i>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="PostalCode/ZIP"
+            name="zip"
+            id="zip"
+          />
+        </div>
+      </div>
+
+      <div class="itemFrame">
+        <div class="label"><label for="ph">Country</label></div>
+        <div class="input-container">
+          <i class="fa fa-building icon"></i>
+          <select name="country">
+              <option value="India">India</option>
+              <option value="SriLanka">Sri Lanka</option>
+              <option value="USA" >USA</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="itemFrame">
+        <div class="label"><label for="email">Email</label></div>
+        <div class="input-container">
+          <i class="fa fa-user icon"></i>
+          <input
+            class="input-field"
+            type="email"
+            placeholder="Email"
+            name="email"
+            id="email"
+          />
+        </div>
+      </div>
+
+      <div class="itemFrame">
+        <div class="label"><label for="ph">Phone Number</label></div>
+        <div class="input-container">
+          <i class="fa fa-user icon"></i>
+          <input
+            class="input-field"
+            type="text"
+            placeholder="Phone Number"
+            name="ph"
+            id="ph"
+          />
+        </div>
+      </div>
+
+      <div class="submit"><input type="submit" value="Submit"></div>
+      <div id="error"></div>
+    </form>
+</div>
+  </body>
+</html>
